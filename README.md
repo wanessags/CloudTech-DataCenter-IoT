@@ -7,7 +7,7 @@ O projeto integra um ESP32 simulado no Wokwi, um sensor DHT22, a plataforma Adaf
 
 ## Integrantes
 
-- Felipe Freita
+- Felipe Freitas
 - Francisco Arthur
 - Wanessa Gonçalves
 
@@ -308,4 +308,4 @@ A implementação permite explorar conceitos de automação, comunicação MQTT,
 **CloudTech Data Center IoT**  
 Projeto Final — SENAC, 2026
 
-Felipe Freita · Francisco Arthur · Wanessa Gonçalves
+Felipe Freitas · Francisco Arthur · Wanessa Gonçalves
