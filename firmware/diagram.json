@@ -1,0 +1,55 @@
+
+{
+    "version": 1,
+    "author": "CloudTech Solutions",
+    "editor": "wokwi",
+    "parts": [
+      {
+        "type": "board-esp32-devkit-c-v4",
+        "id": "esp",
+        "top": 0,
+        "left": 0,
+        "attrs": {}
+      },
+      {
+        "type": "wokwi-dht22",
+        "id": "dht1",
+        "top": -80,
+        "left": -150,
+        "attrs": {
+          "temperature": "24",
+          "humidity": "40"
+        }
+      },
+      {
+        "type": "wokwi-led",
+        "id": "led1",
+        "top": -80,
+        "left": 260,
+        "attrs": {
+          "color": "red",
+          "label": "Exaustor"
+        }
+      },
+      {
+        "type": "wokwi-resistor",
+        "id": "r1",
+        "top": 10,
+        "left": 200,
+        "rotate": 90,
+        "attrs": {
+          "value": "220"
+        }
+      }
+    ],
+    "connections": [
+      ["dht1:VCC", "esp:3V3", "red", []],
+      ["dht1:SDA", "esp:15", "green", []],
+      ["dht1:GND", "esp:GND.1", "black", []],
+      ["esp:2", "r1:1", "yellow", []],
+      ["r1:2", "led1:A", "yellow", []],
+      ["led1:C", "esp:GND.2", "black", []]
+    ],
+    "dependencies": {}
+  }
+  

@@ -1,0 +1,3 @@
+
+Adafruit MQTT Library
+DHT sensor library for ESPx

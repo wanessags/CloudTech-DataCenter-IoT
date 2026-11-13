@@ -1,0 +1,13 @@
+CLOUDTECH DATA CENTER
+Projeto Final — SENAC 2026
+
+INTEGRANTES
+Felipe Freitas
+Francisco Arthur
+Wanessa Gonçalves
+
+LINK DO PROJETO WOKWI
+https://wokwi.com/projects/480530038993558529
+
+LINK DO DASHBOARD ADAFRUIT IO
+https://io.adafruit.com/wanessags/dashboards/cloudtech-data-center
